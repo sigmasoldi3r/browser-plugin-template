@@ -42,7 +42,6 @@ firefoxTemplate.description = packageInfo.description;
 firefoxTemplate.version = packageInfo.version;
 firefoxTemplate.background.scripts = manifestOptions.scripts.workers;
 firefoxTemplate.host_permissions = manifestOptions.allowed_hosts;
-firefoxTemplate.permissions = manifestOptions.permissions;
 firefoxTemplate.content_scripts = manifestOptions.scripts.content;
 fs.writeFileSync(
   "dist/manifest.json",

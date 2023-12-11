@@ -3,13 +3,11 @@
   "manifest_version": 3,
   "version": "{{version}}",
   "description": "{{description}}",
-  "options_page": "options/index.html",
   "background": {
     "scripts": "{{workers}}"
   },
   "content_scripts": "{{content_scripts}}",
   "icons": {},
-  "permissions": "{{permissions}}",
   "host_permissions": "{{allowed-hosts}}",
   "action": {
     "default_popup": "popup/index.html"
