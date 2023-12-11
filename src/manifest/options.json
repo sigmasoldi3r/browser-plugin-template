@@ -1,0 +1,30 @@
+{
+  "permissions": [
+    "nativeMessaging",
+    "tabs",
+    "activeTab",
+    "declarativeContent",
+    "storage",
+    "scripting",
+    "downloads"
+  ],
+  "allowed_hosts": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "scripts": {
+    "workers": [
+      "background.js"
+    ],
+    "content": [
+      {
+        "matches": [
+          "*://*.mozilla.org/*"
+        ],
+        "js": [
+          "borderify.js"
+        ]
+      }
+    ]
+  }
+}

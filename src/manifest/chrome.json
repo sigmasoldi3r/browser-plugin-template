@@ -1,0 +1,16 @@
+{
+  "name": "{{name}}",
+  "manifest_version": 3,
+  "version": "{{version}}",
+  "description": "{{description}}",
+  "options_page": "options/index.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {},
+  "permissions": "{{permissions}}",
+  "host_permissions": "{{allowed-hosts}}",
+  "action": {
+    "default_popup": "popup/index.html"
+  }
+}

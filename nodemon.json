@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/nodemon.json",
+  "verbose": true,
+  "ignore": [
+    "*.spec.js",
+    "*.spec.jsx"
+  ],
+  "watch": [
+    "src"
+  ],
+  "ext": "js,jsx,css,html",
+  "exec": "yarn build"
+}

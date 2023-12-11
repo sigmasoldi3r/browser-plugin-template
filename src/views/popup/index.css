@@ -1,0 +1,7 @@
+body,
+#root {
+  min-width: min-content;
+  min-height: min-content;
+  display: flex;
+  justify-content: stretch;
+}

@@ -1,0 +1,7 @@
+{
+  "cSpell.words": [
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    "/\\*\\*\\s*@tailwind\\s*\\*/\\s*(\"[^\"]*\"|'[^']*'|`[^`]*`)"
+  ]
+}
